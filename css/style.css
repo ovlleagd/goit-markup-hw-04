@@ -131,7 +131,17 @@ a {
 
 /* ------------------------hero--------------------- */
 .hero {
-    background: #2e2f42;
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-11-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440;
+    background: rgba(46, 47, 66, 0.7);
     padding-top: 188px;
     padding-bottom: 188px;
 }
