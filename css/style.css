@@ -80,6 +80,20 @@ a {
     padding: 24px 0;
 }
 
+.header-menu-link.curent {
+    position: relative;
+    color: #404bbf;
+}
+
+.header-menu-link.curent::before {
+    content:"";
+    position: absolute;
+    bottom: -1px;
+    background-color: #404bbf;
+    width: 100%;
+    height: 4px;
+}
+
 .header-menu-link:hover {
     color: #404bbf;
 }
