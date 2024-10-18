@@ -459,8 +459,9 @@ margin-bottom: 8px;
     margin-bottom: 16px;
 }
 
-.footer-block {
+.footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-block-logo {
