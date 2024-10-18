@@ -467,3 +467,8 @@ margin-bottom: 8px;
 .footer-block-logo {
     margin-right: 120px;
 }
+
+.footer-soc-item {
+    display: flex;
+    gap: 16px;
+}
