@@ -449,8 +449,9 @@ margin-bottom: 8px;
 
 .footer-block {
     display: flex;
+    align-items: baseline;
 }
 
-.footer-soc {
-    margin-left: 120px;
+.footer-block-logo {
+    margin-right: 120px;
 }
